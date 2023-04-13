@@ -1,28 +1,17 @@
 {
-  "name": "index.js",
-  "version": "0.0.3",
-  "description": "Module loader",
-  "license": "MIT",
-  "author": "CatTail",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/CatTail/index.js.git"
-  },
-  "dependencies": {},
+  "name": "nota-pipe-moment",
+  "version": "1.0.0",
+  "description": "version control",
   "main": "index.js",
+  "dependencies": {
+    "index.js": "^0.0.3"
+  },
   "scripts": {
-    "test": "./node_modules/.bin/mocha test"
+    "test": "echo index.js"
   },
   "keywords": [
-    "module",
-    "loader",
-    "index"
+    "prince"
   ],
-  "bugs": {
-    "url": "https://github.com/CatTail/index.js/issues"
-  },
-  "homepage": "https://github.com/CatTail/index.js",
-  "devDependencies": {
-    "mocha": "^1.21.4"
-  }
+  "author": "Yasin Mudey",
+  "license": "ISC"
 }
